@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: rgb(25, 25, 25);
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    max-width: 965px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:wrap; 
+}
+
+main .tittles h2,
+p{
+    text-align: center;
+}
+
+main .tittles p{
+    font-style: italic;
+    color: red;
+}
+
+main .title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.options button{
+    border-radius: 50%;
+    border-width: 0;
+    margin: 0 10px;
+    height: 130px;
+    width: 130px;
+    border: 3px solid #fff;
+    background-color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.resetting div{
+    display: flex;
+}
+
+.resetting div p{
+    margin-left: 50px;
+}
+img{
+    width: 40%;
+    
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+
+.options .ock{
+    background: url(../images/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.resetting{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.resetting .reset{
+    font-size: 15px;
+    padding: 8px 15px;
+}
+
+.results,
+.reset-scores{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+footer a{
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+}
+
+
